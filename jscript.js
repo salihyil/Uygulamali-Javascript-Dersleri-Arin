@@ -1,30 +1,18 @@
-/* PRIMITIVE DATA TYPES
+/*
+var firstName, secondName,fullName;
 
-    Number 
-    String 
-    Boolean
-    undefined
-    Null
+firstName = prompt("Adınız Nedir?");
+secondName = prompt("Soyadınız Nedir?");
 
-*/ 
+fullName = firstName +" "+ secondName;
+alert("Merhaba, " + fullName);
+document.write("Merhaba, " + fullName);
+*/
 
-var names = 'Arin';
-console.log(typeof names); //string
+var number1,number2,sum;
 
-var age = 3;
-console.log(typeof age); //number
-
-var isStudent = false;
-console.log(typeof isStudent); //boolean
-
-var sample; //değişken var ama tanımlı değil
-console.log(typeof sample); //undefined
-
-var sampleNull = null; 
-console.log(typeof sampleNull); //object
-
-//javascript dinamik data tipleri kullanır.
-var a=4;
-a= "naber";
-console.log(a); //naber en son girilen değer yazdırılır.
-
+number1 = prompt("İlk sayıyı gir");
+number2 = prompt("İkinci sayıyı gir");
+sum = parseInt(number1) + parseInt(number2);
+//parseInt ile integer değere çeviriyoruz. Diğer türlü string olarak geliyor.
+alert("Toplam= " + sum)
