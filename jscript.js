@@ -1,18 +1,30 @@
-//console.log('Arin');
+/* PRIMITIVE DATA TYPES
 
+    Number 
+    String 
+    Boolean
+    undefined
+    Null
 
+*/ 
 
-var name = 'Salih';
+var names = 'Arin';
+console.log(typeof names); //string
+
 var age = 3;
-var job;
-job =  "doktor";
-var erkek = false;
+console.log(typeof age); //number
 
-console.log(erkek);
-console.log(name);
-console.log(age1); //jsde age1 hatasını aldıktan sonra bu koodan sonraki diğer hataları göstermez. console.log(Age); consola gelmez.
-console.log(job);
+var isStudent = false;
+console.log(typeof isStudent); //boolean
 
+var sample; //değişken var ama tanımlı değil
+console.log(typeof sample); //undefined
 
-//js büyük küçük harfe duyarlıdır.
-console.log(Age); //Age is not defined hatası verir.
+var sampleNull = null; 
+console.log(typeof sampleNull); //object
+
+//javascript dinamik data tipleri kullanır.
+var a=4;
+a= "naber";
+console.log(a); //naber en son girilen değer yazdırılır.
+
